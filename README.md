@@ -55,7 +55,7 @@ To complete Part II, fulfill the following requirements in your **HTML** file wi
  - Number of Legs(Minimum of 4 options)
  - Special Abilities(Minimum of 3 options)
  - Pet Email
- - Pet Password
+ - Pet Passwor2d
  - Pet Description
  - "Save Data" Button
  - "See Data" Button
