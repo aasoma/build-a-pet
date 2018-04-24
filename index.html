@@ -12,18 +12,19 @@
     <div id="form-mask">
         <h1 id="title">Build-A-BareBear</h1>
         <h5>Build your Bare Bear Now!</h5>
-        <form id="myform">
+        <form id="form">
         
 
-        <div>Pet Name</div>
+        <div>Bear Name</div>
        <div class="input-controller">
         <input type="text" id="petname">
+       <br>
        <br>
        </div>
 
        <div>Type of Bare Bear</div>
-       <div class="input-container">
-           <select name="type of name" id="">
+       <div id="bear-type" class="input-container">
+           <select name="type of name" >
            <option value="Default"></option>
            <option value="Brown Bare Bear">Brown Bare Bear</option>
            <option value="Polar Bare Bear">Polar Bare Bear</option>
@@ -31,46 +32,56 @@
            <option value="Grizzly Bare Bear">Grizzly Bare Bear</option>
            </select>
         <br>
+        <br>
        </div> 
        
 
 
         <div>Number of Legs</div>
-        <div class'input-container'>
-        <input type="radio" name="" value=""<checked><br>
-        <input type="radio" name="8" value="8">8 <br>
-        <input type="radio" name="6" value="6">6 <br>
-        <input type="radio" name="4" value="4">4 <br>
-        <input type="radio" name="2" value="2">2 <br>
+        <div id="numberoflegs" class'input-container'>
+        <input type="radio" name="legs" value="8" class="legs">8 <br>
+        <input type="radio" name="legs" value="6" class="legs">6 <br>
+        <input type="radio" name="legs" value="4" class="legs">4 <br>
+        <input type="radio" name="legs" value="2" class="legs">2 <br> 
         </div>
         
         <div>Special Abilities</div>
-        <input type="checkbox" value="Flaming Crap" name="special" class="special"> Flaming Crap
+        <div id="specialabilities">
+        <input type="radio" value="Flaming Crap" name="special" class="special"> Flaming Crap
         <br>
-        <input type="checkbox" value="Frost Breath" name="special" class="special"> Frost Breath
+        <input type="radio" value="Frost Breath" name="special" class="special"> Frost Breath
         <br>
-        <input type="checkbox" value="Martial Arts" name="special" class="special"> Martial Arts
+        <input type="radio" value="Martial Arts" name="special" class="special"> Martial Arts
         <br>
-        <input type="checkbox" value="Multilingual" name="special" class="special"> Multilingual
+        <input type="radio" value="Multilingual" name="special" class="special"> Multilingual
         <br>
+        <br>
+        </div>
 
         <div>Pet Email</div>
+        <div id="email">
         <input type="text" id="Email">
         <br>
+        <br>
+        </div>
 
         <div>Pet Password</div>
+        <id="password" div>
         <input type="password">
         <br>
+        <br>
+        </div>
 
         <div>Description</div>
-        <textarea name="" id="" cols="30" rows="10"></textarea>
+        <textarea name="" id="description" cols="30" rows="10"></textarea>
+        <br>
         <br>
 
-        
+        <input id="submit" type="submit">    
 
 
 
-
+    </form>
     </div>
 </div>
 
